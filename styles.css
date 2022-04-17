@@ -1,0 +1,127 @@
+#header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 12vh;
+    background-color: white;
+    padding: 0px 0px 0px 50px;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: beige;
+}
+
+
+#footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+
+#books-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px
+}
+
+
+#add-book {
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    height: 12vh;
+    background-color: beige;
+}
+
+.book-card {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 15px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+
+p {
+    margin:  0;
+}
+
+.card-btn {
+    width: 100%;
+    height: 45px;
+    border: 0;
+}
+
+.card-btn:hover {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+
+
+.red-btn {
+    background-color: #FF9C9C;
+}
+
+.green-btn {
+    background-color: #9FFF9C;
+}
+
+#form-popup {
+    display: none;
+    background-color: white;
+    width: 22%;
+    margin: auto;
+    border-radius: 15px;
+}
+
+#add-book-btn {
+    width: 22%;
+    height: 45px;
+    border: 0;
+    background-color: beige;
+    font-size: large;
+    font-weight: bold;
+}
+
+#add-book-btn:hover {
+    cursor: pointer;
+}
+
+#add-book-form {
+    text-align: center;
+    padding: 16px 20px;
+    display: block;
+}
+
+#add-book-form input[type=text], #add-book-form input[type=number] {
+    width: 200px;
+    padding: 15px;
+    margin: 10px;
+    border: none;
+    background: #f1f1f1
+}
+
+#add-book-form input[type=checkbox] {
+    margin: 0px 0px 20px 0px;
+}

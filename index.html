@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css" />
+    <title>Library</title>
+  </head>
+  <body>
+    <div id="header">
+      <h1>library</h1>
+    </div>
+    <div id="add-book">
+      <button id="add-book-btn" onclick="openForm()">+ Add book</button>
+    </div>
+    <div id="form-popup">
+      <form id="add-book-form" class="form-container">
+        <input type="text" id="inputTitle" placeholder="Title" required>
+        <input type="text" id="inputAuthor" placeholder="Author" required>
+        <input type="number" id="inputPages" placeholder="Pages" required>
+        <label for="isRead"><br><br>Have you read it? </label>
+        <input type="checkbox" id="inputIsRead">
+        <button type="submit" id="submit-btn" onclick="closeForm" class="card-btn green-btn">Submit</button>
+      </form>
+
+    </div>
+    <div id="books-grid"></div>
+    <div id="footer">
+      <p>
+        Copyright ©
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        developerduggal
+      </p>
+      <a href="https://github.com/developerduggal/" target="_blank">
+        <img src="/GitHub-Mark-32px.png" alt="github.com/developerduggal/" />
+      </a>
+    </div>
+    <script src="/main.js"></script>
+  </body>
+</html>
