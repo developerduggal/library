@@ -12,12 +12,9 @@ function Book(title, author, pages, isRead) {
 }
 
 // create Book objects for testing
-const book1 = new Book("Thinking in Bets", "Debra Fine", 224, false);
-const book2 = new Book("The Fine Art Of Small Talk", "Annie Duke", 288, true);
-const book3 = new Book("Thinking in Bets", "Debra Fine", 224, false);
-const book4 = new Book("The Fine Art Of Small Talk", "Annie Duke", 288, true);
-const book5 = new Book("Thinking in Bets", "Debra Fine", 224, false);
-const book6 = new Book("The Fine Art Of Small Talk", "Annie Duke", 288, true);
+const book1 = new Book("The Fine Art Of Small Talk", "Debra Fine", 224, true);
+const book2 = new Book("Thinking in Bets", "Annie Duke", 288, false);
+
 
 // manually add books to the myLibrary array
 function addBookToLibrary(book) {
@@ -25,10 +22,6 @@ function addBookToLibrary(book) {
 }
 addBookToLibrary(book1);
 addBookToLibrary(book2);
-addBookToLibrary(book3);
-addBookToLibrary(book4);
-addBookToLibrary(book5);
-addBookToLibrary(book6);
 
 // create a book card using data from Book object and display it on screen.
 function createBookCard(book) {
