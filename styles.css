@@ -89,14 +89,13 @@ p {
 
 #form-popup {
     display: none;
-    background-color: white;
     width: fit-content;
     margin: auto;
     border-radius: 15px;
 }
 
 #add-book-btn {
-    width: 22%;
+    width: 30%;
     height: 45px;
     border: 0;
     background-color: beige;
@@ -124,4 +123,10 @@ p {
 
 #add-book-form input[type=checkbox] {
     margin: 0px 0px 20px 0px;
+}
+
+#submit-btn {
+    max-width: 20%;
+    display: block;
+    margin: auto;
 }
