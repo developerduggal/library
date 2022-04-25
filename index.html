@@ -16,14 +16,33 @@
     </div>
     <div id="form-popup">
       <form id="add-book-form" class="form-container">
-        <input type="text" id="inputTitle" placeholder="Title" required>
-        <input type="text" id="inputAuthor" placeholder="Author" required>
-        <input type="number" id="inputPages" placeholder="Pages" required>
-        <label for="isRead"><br><br>Have you read it? </label>
-        <input type="checkbox" id="inputIsRead">
-        <button type="submit" id="submit-btn" onclick="closeForm" class="card-btn green-btn">Submit</button>
+        <input
+          type="text"
+          id="inputTitle"
+          placeholder="Title"
+          value=""
+          required
+        />
+        <input
+          type="text"
+          id="inputAuthor"
+          placeholder="Author"
+          value=""
+          required
+        />
+        <input
+          type="number"
+          id="inputPages"
+          placeholder="Pages"
+          value=""
+          required
+        />
+        <label for="isRead"><br /><br />Have you read it? </label>
+        <input type="checkbox" id="inputIsRead" name="inputIsRead" />
+        <button type="submit" id="submit-btn" class="card-btn green-btn">
+          Submit
+        </button>
       </form>
-
     </div>
     <div id="books-grid"></div>
     <div id="footer">
